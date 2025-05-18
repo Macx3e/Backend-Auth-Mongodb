@@ -1,6 +1,11 @@
 
 # 🚀 Backend con Node.js, Express y MongoDB  
 **Gestión de usuarios y productos con autenticación JWT**  
+![Image](https://github.com/user-attachments/assets/db3abac1-070d-428c-87cf-5599da344ca7)
+![Image](https://github.com/user-attachments/assets/e4fafa08-2f3d-47b0-8197-dedfa523337e)
+![Image](https://github.com/user-attachments/assets/094be268-61cc-4216-9136-434f4151ae91)
+![Image](https://github.com/user-attachments/assets/12033cf8-4255-4747-9806-c551b230ad28)
+![Image](https://github.com/user-attachments/assets/da85510a-6094-4f6a-86b0-6bf06ca5ab79)
 
 ## 📌 Descripción  
 Este proyecto es un backend construido con Node.js, Express y MongoDB para gestionar usuarios y productos.  
@@ -63,12 +68,3 @@ Authorization: Bearer [TOKEN_AQUÍ]
 Si deseas contribuir, ¡haz un fork del repositorio y envía un pull request!
 📩 Contacto
 Si tienes preguntas, contáctame en valdiviamaximiliano20@gmail.com 🚀
-
-
-![Image](https://github.com/user-attachments/assets/d97557bd-b41e-4266-bbc0-a5df7093d1fe)
-![Image](https://github.com/user-attachments/assets/cb881e0a-ff70-4872-a5ef-fc59ca95f0ae)
-![Image](https://github.com/user-attachments/assets/5fa91cc4-9ed8-490e-9c16-932e5e207378)
-![Image](https://github.com/user-attachments/assets/6118b843-c5d6-4f37-9835-f7ed7ab1bbc3)
-![Image](https://github.com/user-attachments/assets/d1450469-bc9f-462a-85bd-5316c33d32d0)
-![Image](https://github.com/user-attachments/assets/a0b509ac-6721-469e-b280-5a20d5c9740d)
-![Image](https://github.com/user-attachments/assets/d170ebbd-5818-482a-899c-6230957c130a)
