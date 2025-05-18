@@ -1,19 +1,19 @@
 const express = require("express");
-const authMiddleware = require("../middleware/authMiddleware");
-const {
-  createProduct,
-  getAllProducts,
-  getProductById,
-  updateProduct,
-  deleteProduct
+const { 
+  createProduct, 
+  getAllProducts, 
+  getProductById, 
+  updateProduct, 
+  deleteProduct 
 } = require("../controllers/productController");
 
 const router = express.Router();
 
-router.post("/create", authMiddleware, createProduct);
+// ✅ **Definir rutas para CRUD de productos**
+router.post("/create", createProduct);
 router.get("/readall", getAllProducts);
 router.get("/readone/:id", getProductById);
-router.put("/update/:id", authMiddleware, updateProduct);
-router.delete("/delete/:id", authMiddleware, deleteProduct);
+router.put("/update/:id", updateProduct);
+router.delete("/delete/:id", deleteProduct);
 
 module.exports = router;
