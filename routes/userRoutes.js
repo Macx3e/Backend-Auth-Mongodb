@@ -1,9 +1,10 @@
 const express = require("express");
-const { updateUser } = require("../controllers/userController");
+const { loginUser, verifyToken } = require("../controllers/userController");
 
 const router = express.Router();
 
 // ✅ **Definir rutas**
-router.put("/update/:id", updateUser); // Actualizar usuario
+router.post("/login", loginUser); // Login con generación de JWT
+router.get("/verifytoken", verifyToken); // Verificación de token
 
 module.exports = router;
